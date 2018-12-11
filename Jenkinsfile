@@ -33,7 +33,7 @@ pipeline {
               
                 when {
                     not {
-                        echo 'when condition fails'   
+                        branch "master"   
                     }
                   
                 }
