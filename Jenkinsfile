@@ -29,7 +29,7 @@ pipeline {
         
         stage('Three') { 
              
-               echo 'check3.'
+               
               
                 when {
                     not {
