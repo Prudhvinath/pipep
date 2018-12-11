@@ -2,14 +2,14 @@ pipeline {
     agent any  
     stages { 
         
-          stage('one') { 
+          stage('One') { 
             steps { 
                echo 'This is a minimal pipeline.'
               
                echo 'Memories of Alhambara.'
             }
         }
-         stage('two') { 
+         stage('Two') { 
             steps { 
                echo 'check.'
               
@@ -27,7 +27,7 @@ pipeline {
             }
         }
         
-        stage('three') { 
+        stage('Three') { 
             steps { 
                echo 'check3.'
               
