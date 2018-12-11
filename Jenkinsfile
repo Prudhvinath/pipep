@@ -28,7 +28,7 @@ pipeline {
         }
         
         stage('Three') { 
-            steps { 
+             
                echo 'check3.'
               
                 when {
@@ -37,7 +37,7 @@ pipeline {
                     }
                   
                 }
-                
+            steps {    
                echo 'success3.'
             }
         }
